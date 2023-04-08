@@ -59,6 +59,9 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  # Disables the error of not finding the favicon images
+  config.assets.unknown_asset_fallback = true
+
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
 
