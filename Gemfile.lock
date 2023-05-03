@@ -88,6 +88,9 @@ GEM
     cssbundling-rails (1.1.2)
       railties (>= 6.0.0)
     date (3.3.3)
+    debase (0.2.5.beta2)
+      debase-ruby_core_source (>= 0.10.12)
+    debase-ruby_core_source (3.2.0)
     debug (1.7.2)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
@@ -199,6 +202,8 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     rexml (3.2.5)
+    ruby-debug-ide (0.7.3)
+      rake (>= 0.8.1)
     rubyzip (2.3.2)
     selenium-webdriver (4.8.6)
       rexml (~> 3.2, >= 3.2.5)
@@ -257,6 +262,7 @@ DEPENDENCIES
   bootsnap
   capybara
   cssbundling-rails
+  debase (~> 0.2.1)
   debug
   devise (~> 4.9)
   devise-bootstrap-views (~> 1.0)
@@ -268,6 +274,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   rails_12factor
+  ruby-debug-ide (~> 0.7.3)
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
